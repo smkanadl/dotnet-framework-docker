@@ -17,7 +17,7 @@ jobs:
             sdkFull: '4.8.2304'
             image: windowsservercore-ltsc2022
             runner: windows-2022
-            build: true
+            build: false
 
     runs-on: ${{ matrix.runner }}
 

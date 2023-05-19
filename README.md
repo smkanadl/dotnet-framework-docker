@@ -1,4 +1,4 @@
-# Windows docker images for the .NET SDK in x86
+# Windows docker images for the .NET Framework SDK
 
 This repo aims to provide leaner net48 test images compares to the [official Docker images](https://hub.docker.com/_/microsoft-dotnet-framework-sdk/) created by Microsoft.
 
