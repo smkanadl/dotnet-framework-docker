@@ -41,6 +41,6 @@ jobs:
       - name: Build and push Docker image ${{ matrix.sdk }}-${{ matrix.image }}
         if: matrix.build == true
         run: |
-          docker build ${{ github.workspace }}/src/sdk/${{ matrix.sdk }}/${{ matrix.image }} --tag ghcr.io/smkanadl/framework-sdk:${{ matrix.sdk }}-${{ matrix.image }}-x86 --tag ghcr.io/smkanadl/framework-sdk:${{ matrix.sdkFull }}-${{ matrix.image }}-x86
-          docker push ghcr.io/smkanadl/framework-sdk:${{ matrix.sdk }}-${{ matrix.image }}-x86
-          docker push ghcr.io/smkanadl/framework-sdk:${{ matrix.sdkFull }}-${{ matrix.image }}-x86
+          docker build ${{ github.workspace }}/src/sdk/${{ matrix.sdk }}/${{ matrix.image }} --tag ghcr.io/smkanadl/framework-sdk:${{ matrix.sdk }}-${{ matrix.image }} --tag ghcr.io/smkanadl/framework-sdk:${{ matrix.sdkFull }}-${{ matrix.image }}
+          docker push ghcr.io/smkanadl/framework-sdk:${{ matrix.sdk }}-${{ matrix.image }}
+          docker push ghcr.io/smkanadl/framework-sdk:${{ matrix.sdkFull }}-${{ matrix.image }}
