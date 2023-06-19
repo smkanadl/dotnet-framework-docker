@@ -14,10 +14,10 @@ jobs:
       matrix:
         include:
           - sdk: '4.8'
-            sdkFull: '4.8.2304'
+            sdkFull: '4.8.2306'
             image: windowsservercore-ltsc2022
             runner: windows-2022
-            build: false
+            build: true
 
     runs-on: ${{ matrix.runner }}
 
