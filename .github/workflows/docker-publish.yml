@@ -14,7 +14,7 @@ jobs:
       matrix:
         include:
           - sdk: '4.8'
-            sdkFull: '4.8.2307'
+            sdkFull: '4.8.2309'
             image: windowsservercore-ltsc2022
             runner: windows-2022
             build: true
