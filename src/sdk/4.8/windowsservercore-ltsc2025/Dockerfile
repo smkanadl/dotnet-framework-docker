@@ -6,7 +6,7 @@
 # Instead of installing VS build tools, we install latest donet sdk and use this to run net48 unit tests
 # We also do not use the optimized runtime image as base as this seems to be part of causing additional startup time
 
-FROM mcr.microsoft.com/windows/servercore:ltsc2022-amd64
+FROM mcr.microsoft.com/windows/servercore:ltsc2025-amd64
 
 LABEL org.opencontainers.image.source="https://github.com/smkanadl/dotnet-framework-docker"
 
